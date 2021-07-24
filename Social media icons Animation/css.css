@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #45a1b1;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-apps{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span{
+    list-style: none;
+}
+
+span a {
+    height: 80px; 
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 30%;
+    position: relative;
+    overflow: hidden;
+    border:3px solid #fff;
+    z-index: 1;
+    
+
+
+}
+span a .social{
+    position: relative;
+    color: #030303;
+    transition: .5s;
+    z-index: 3;
+
+}
+
+span a:hover .social{
+    color: #fff;
+    transform: rotateY(360deg);
+
+}
+
+span a::before{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(194, 28, 28);
+    transition: .5s;
+    z-index: 2;
+}
+span a:hover:before{
+    top: 0;
+
+}
+
+span:nth-child(1) a::before{
+    background-color: rgb(4, 4, 255);
+    
+}
+span:nth-child(2) a::before{
+    background-color: rgb(250, 81, 51);
+    
+}
+span:nth-child(3) a::before{
+    background-color: rgb(65, 228, 32);
+    
+}
+span:nth-child(4) a::before{
+    background-color: rgb(255, 0, 0);
+    
+}
+
+

@@ -1,0 +1,1 @@
+console.log("connect to internet for the visibility of icons");
