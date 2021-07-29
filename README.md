@@ -1,5 +1,5 @@
 # CSS3_Effects_Gallery
-#CSS  #HTML 
+#CSS  #HTML #javascript
 # Some sample shots:
 
 ![Sahil](https://user-images.githubusercontent.com/80634110/127538741-1c91e90c-05a0-49b6-bfaa-90d47394aa64.PNG)
